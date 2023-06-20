@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     //создаем отношение контроллера и модели через класс ConcentrationGame
-    var game = ConcentrationGame()
+    lazy var game = ConcentrationGame(numberOfPairsOfCards: (buttonCollection.count + 1) / 2)
     
     
     
