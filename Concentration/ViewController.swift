@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         }
     }
 
-  
+    var emojiCollection = ["🍏", "🍎", "🍏", "🍎"]
     
     
     
@@ -38,7 +38,9 @@ class ViewController: UIViewController {
     
     @IBAction func buttonAction(_ sender: UIButton) {
         touches += 1
-        flipButton(emoji: "🍏", button: sender)
+        if let buttonIndex = buttonCollection.firstIndex(of: sender) {
+            flipButton(emoji: emojiCollection[buttonIndex], button: sender)
+        }
     }
     @IBOutlet weak var touchLabel: UILabel!
 }
