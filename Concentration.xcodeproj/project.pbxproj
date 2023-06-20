@@ -13,6 +13,8 @@
 		B48013872A41D5FE003129F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48013852A41D5FE003129F0 /* Main.storyboard */; };
 		B48013892A41D600003129F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48013882A41D600003129F0 /* Assets.xcassets */; };
 		B480138C2A41D600003129F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B480138A2A41D600003129F0 /* LaunchScreen.storyboard */; };
+		B48013942A41E191003129F0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48013932A41E191003129F0 /* Card.swift */; };
+		B48013962A41E1AE003129F0 /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48013952A41E1AE003129F0 /* ConcentrationGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B48013882A41D600003129F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B480138B2A41D600003129F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B480138D2A41D600003129F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48013932A41E191003129F0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B48013952A41E1AE003129F0 /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		B48013732A41D5FD003129F0 = {
 			isa = PBXGroup;
 			children = (
+				B48013932A41E191003129F0 /* Card.swift */,
+				B48013952A41E1AE003129F0 /* ConcentrationGame.swift */,
 				B480137E2A41D5FE003129F0 /* Concentration */,
 				B480137D2A41D5FE003129F0 /* Products */,
 			);
@@ -140,7 +146,9 @@
 			files = (
 				B48013842A41D5FE003129F0 /* ViewController.swift in Sources */,
 				B48013802A41D5FE003129F0 /* AppDelegate.swift in Sources */,
+				B48013962A41E1AE003129F0 /* ConcentrationGame.swift in Sources */,
 				B48013822A41D5FE003129F0 /* SceneDelegate.swift in Sources */,
+				B48013942A41E191003129F0 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
