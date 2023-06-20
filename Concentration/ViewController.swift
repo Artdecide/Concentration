@@ -8,6 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //создаем отношение контроллера и модели через класс ConcentrationGame
+    var game = ConcentrationGame()
+    
+    
+    
     var touches = 0 {
         didSet {
             touchLabel.text = "Flip: \(touches)"
@@ -39,7 +44,7 @@ class ViewController: UIViewController {
     @IBAction func buttonAction(_ sender: UIButton) {
         touches += 1
         if let buttonIndex = buttonCollection.firstIndex(of: sender) {
-            flipButton(emoji: emojiCollection[buttonIndex], button: sender)
+            game.chooseCard(at: buttonIndex)
         }
     }
     @IBOutlet weak var touchLabel: UILabel!
