@@ -27,7 +27,7 @@ class ConcentrationGame {
                     cards[flipDown].isFaceUp = false
                 }
                 cards[index].isFaceUp = true
-                indexOfOneOnlyFaceUpCard = index 
+                indexOfOneOnlyFaceUpCard = index
             }
         }
     }
@@ -37,6 +37,8 @@ class ConcentrationGame {
         for _ in 1...numberOfPairsOfCards {
             let card = Card()
             cards += [card, card]
+            cards.shuffle()
         }
+        
     }
 }
